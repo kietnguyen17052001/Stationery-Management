@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* .total-price {
+    visibility: hidden;
+    display: none;
+} */
+/* #id_btn_show {
+    display: none;
+} */
+#detail {
+	display: none;
+	position: absolute;
+	width: 650px;
+	background: #f3f1f1;
+	color: rgb(43, 43, 43);
+	top: 130%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+.close_btn {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #b8b4b4
+}
+
+.sub_invoice {
+	margin: 20px 0 20px 20px;
+}
+

@@ -1,0 +1,54 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-search-customer, .box-search-invoices, .box-search-detailinvoice {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.box-search-invoices input, .box-search-customer input,
+	.box-search-detailinvoice input {
+	width: 300px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid silver;
+}
+
+.box-search-customer input, .box-search-detailinvoice input {
+	width: 250px;
+}
+
+.ti-search {
+	width: 40px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #2980b9;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#btn-delete-customer, #btn-delete-invoice, #btn-delete-detailinvoice {
+	background: none;
+	border: none;
+}
+
+#btn-delete-customer img, #btn-delete-invoice img,
+	#btn-delete-detailinvoice img, #tbody-invoices a img {
+	max-height: 25px;
+	min-height: 25px;
+	max-width: 25px;
+	min-width: 25px;
+}
+
+@media screen and (max-width: 480px) {
+	.header {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+}
